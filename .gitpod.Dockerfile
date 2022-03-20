@@ -1,4 +1,4 @@
 FROM gitpod/workspace-node-lts
 
 # Install custom tools, runtime, etc.
-RUN apt install mariadb
+RUN sudo apt-get install mariadb
