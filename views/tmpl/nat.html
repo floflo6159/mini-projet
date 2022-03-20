@@ -1,0 +1,20 @@
+{% extends 'tmpl/layout.html' %}
+
+{% block title %}Client{% endblock %}
+{% block styles %}
+<link rel="stylesheet" href="css/default.css">
+{% endblock %}
+{% block scripts %}
+{% endblock %}
+
+{% block content %}
+<h2>Liste des règles Nat</h2>
+{% for row in items %}
+
+<div class="alert alert-primary" role="alert">
+    <strong>Le {{ row.nameNat }} - {{ row.ipAddress }}</strong>
+    <br />{{ row.port }}
+</div>
+
+{% endfor %}
+{% endblock %}
