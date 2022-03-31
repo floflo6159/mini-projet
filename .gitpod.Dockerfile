@@ -1,4 +1,4 @@
-FROM debian/buster
+FROM debian:latest
 
 # Install mariadb server
 RUN sudo apt-get update && sudo apt-get install npm mariadb-server -y
