@@ -1,4 +1,4 @@
 FROM gitpod/workspace-full
 
-# Install custom tools, runtime, etc.
+# Install mariadb server
 RUN sudo apt-get update && sudo apt-get install mariadb-server
