@@ -1,7 +1,4 @@
-FROM gitpod/workspace-full
+FROM debian/buster
 
 # Install mariadb server
-RUN sudo apt-get update && sudo apt-get install mariadb-server -y
-
-# Exec Init mariadbdb script
-ENTRYPOINT /bin/bash sudo ./manifest/mariadb/mysql.sh
+RUN sudo apt-get update && sudo apt-get install npm mariadb-server -y
