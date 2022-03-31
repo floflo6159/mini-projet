@@ -7,9 +7,9 @@ class DbMariaDB {
   constructor() { 
     options = {
       host: 'localhost',
-      user: 'root',
-      password: 'root',
-      database: 'univ_smb'
+      user: 'website-account',
+      password: 'password-db-univ01',
+      database: 'website-account'
     };
   }
 
