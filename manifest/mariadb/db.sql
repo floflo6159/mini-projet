@@ -17,6 +17,16 @@ CREATE TABLE IF NOT EXISTS `webiptables`.`nat_alias` (
   `port` smallint(6) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+CREATE TABLE IF NOT EXISTS `webiptables`.`nat_filter` (
+  `idNat` int(11) DEFAULT NULL,
+  `name` varchar(50) DEFAULT NULL,
+  `ipAddressSrc` varchar(15) DEFAULT NULL,
+  `portSrc` smallint(6) DEFAULT NULL,
+  `ipAddressDst` varchar(15) DEFAULT NULL,
+  `portDst` smallint(6) DEFAULT NULL,  
+  `type` varchar(10) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
 INSERT INTO `webiptables`.`nat_rules` (`idNat`, `nameNat`, `ipAddress`, `port`, `type`) VALUES
 	(1, 'NAT le port 22 sur le serveur Web1', '10.0.0.1', 22, 'Source Nat');
 
