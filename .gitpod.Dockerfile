@@ -1,4 +1,4 @@
-FROM gitpod/workspace-base
+FROM gitpod/workspace-node
 
 # Install mariadb server
 RUN sudo apt-get update && sudo apt-get install mariadb-server -y
