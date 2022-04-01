@@ -2,7 +2,7 @@ var sql = require('../db/db_mariadb');
 
 var connexion = null;
 
-class Nat {
+class Alias {
   constructor(req, res) {
     this.req = req;
     this.res = res;
@@ -15,22 +15,22 @@ class Nat {
 
   }
 
-  async getNatList() {
+  async getAliasList() {
     try {
-      this.natList = await connexion.query("SELECT idNat, nameNat, port, type FROM nat_rules");
+      this.aliasList = await connexion.query("SELECT id, name, ipAddress, port FROM nat_alias");
 
-      return this.natList;
+      return this.aliasList;
     }
     catch (anError) {
-      console.log('Error to get nat list !');
+      console.log('Error to get alias list !');
 
       // See error from SQL Client
       //console.log(anError);
     }
   }
-  getNat() {
-    return this.natList;
+  getAlias() {
+    return this.aliasList;
   }
 }
 
-module.exports = Nat;
+module.exports = Alias;

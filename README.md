@@ -16,6 +16,16 @@ In the first, you have all scripts needed for deploy the application
 
 In the second, you have the source of the application
 
+### Initialize the database
+
+Start the MariaDB server
+
+`sudo /etc/init.d/mysql start`
+
+Build the database
+
+`sudo mysql -u root -p <manifest/mariadb/db.sql`
+
  ## Start the application in debug mode
 
 To start the application, go in your Terminal, change your directory for src, and enter this command :

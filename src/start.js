@@ -15,8 +15,14 @@ templateEngine.configure('views', {
     express: app
 });
 
+var start = require('./controllers/iptables/nat');
+app.get('/', start.render);
+
+var alias = require('./controllers/iptables/alias');
+app.get('/alias', alias.render);
+
 var nat = require('./controllers/iptables/nat');
-app.get('/', nat.render);
+app.get('/nat', nat.render);
 
 // Routes statiques
 app.use('/css/bootstrap.min.css', express.static('node_modules/bootstrap/dist/css/bootstrap.min.css'));

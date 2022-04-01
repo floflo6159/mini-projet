@@ -6,15 +6,19 @@ var options = {};
 class DbMariaDB {
   constructor() { 
     options = {
-      host: 'localhost',
-      user: 'website-account',
-      password: 'password-db-univ01',
-      database: 'website-account'
+      host: '127.0.0.1',
+      user: 'websiteaccount',
+      password: 'passwordDbUniv01',
+      database: 'webiptables'
     };
   }
 
   async startConnexion() {
-    connexion = await db.createConnection(options);
+    try {
+      connexion = await db.createConnection(options);
+    } catch (error) {
+      console.log(error)
+    }
   }
   
   async query(aQuery, anArgList) {
