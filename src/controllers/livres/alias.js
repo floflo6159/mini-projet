@@ -9,4 +9,6 @@ exports.render = async function (req, res) {
   var list = await defaultComponent.getAliasList();
 
   res.render('tmpl/alias.html', { items: list});
+
+  var test;
 }
