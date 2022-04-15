@@ -1,20 +1,19 @@
-CREATE DATABASE IF NOT EXISTS `webiptables` ;
+CREATE DATABASE IF NOT EXISTS `webook` ;
 
-USE `webiptables`;
+USE `webook`;
 
-CREATE TABLE IF NOT EXISTS `webiptables`.`nat_rules` (
-  `idNat` int(11) DEFAULT NULL,
-  `nameNat` varchar(50) DEFAULT NULL,
-  `ipAddress` varchar(15) DEFAULT NULL,
-  `port` smallint(6) DEFAULT NULL,
-  `type` varchar(10) DEFAULT NULL
+CREATE TABLE IF NOT EXISTS `webook`.`livre` (
+  `idLivre` int(11) DEFAULT NULL,
+  `nomLivre` varchar(50) DEFAULT NULL,
+  `nomAuteur` varchar(15) DEFAULT NULL,
+  `Genre` smallint(6) DEFAULT NULL,
+  `Description` varchar(10) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-CREATE TABLE IF NOT EXISTS `webiptables`.`nat_alias` (
-  `id` int(11) DEFAULT NULL,
-  `name` varchar(50) DEFAULT NULL,
+CREATE TABLE IF NOT EXISTS `webook`.`commentaire` (
+  `idCommentaire` int(11) DEFAULT NULL,
+  `Commentaire` varchar(50) DEFAULT NULL,
   `ipAddress` varchar(15) DEFAULT NULL,
-  `port` smallint(6) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 CREATE TABLE IF NOT EXISTS `webiptables`.`nat_filter` (
