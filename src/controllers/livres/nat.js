@@ -8,5 +8,5 @@ exports.render = async function (req, res) {
   
   var natList = await defaultComponent.getNatList();
 
-  res.render('tmpl/header.html', { items: natList});
+  res.render('tmpl/index.html', { items: natList});
 }
