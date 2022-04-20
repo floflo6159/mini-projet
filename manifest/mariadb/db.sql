@@ -13,10 +13,10 @@ CREATE TABLE IF NOT EXISTS `webook`.`livre` (
 CREATE TABLE IF NOT EXISTS `webook`.`commentaire` (
   `idCommentaire` int(11) DEFAULT NULL,
   `Commentaire` varchar(50) DEFAULT NULL,
-  `ipAddress` varchar(15) DEFAULT NULL,
+  `ipAddress` varchar(15) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-CREATE TABLE IF NOT EXISTS `webiptables`.`nat_filter` (
+/*CREATE TABLE IF NOT EXISTS `webiptables`.`nat_filter` (
   `idNat` int(11) DEFAULT NULL,
   `name` varchar(50) DEFAULT NULL,
   `ipAddressSrc` varchar(15) DEFAULT NULL,
@@ -33,4 +33,4 @@ INSERT INTO `webiptables`.`nat_alias` (`id`, `name`, `ipAddress`, `port`) VALUES
 	(1, 'SSH WebServer1', '10.0.0.1', 22);
 
 INSERT INTO `webiptables`.`nat_alias` (`id`, `name`, `ipAddress`, `port`) VALUES
-	(2, 'SSH WebServer2', '10.0.0.2', 22);
+	(2, 'SSH WebServer2', '10.0.0.2', 22);*/

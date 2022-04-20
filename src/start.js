@@ -15,14 +15,14 @@ templateEngine.configure('views', {
     express: app
 });
 
-var start = require('./controllers/iptables/nat');
+var start = require('./controllers/livres/nat');
 app.get('/', start.render);
 
-var alias = require('./controllers/iptables/alias');
+/*var alias = require('./controllers/iptables/alias');
 app.get('/alias', alias.render);
 
 var nat = require('./controllers/iptables/nat');
-app.get('/nat', nat.render);
+app.get('/nat', nat.render);$/
 
 // Routes statiques
 app.use('/css/bootstrap.min.css', express.static('node_modules/bootstrap/dist/css/bootstrap.min.css'));
@@ -36,5 +36,5 @@ app.use('/js/popper.min.js', express.static('node_modules/popper.js/dist/popper.
 
 // Démarrage du serveur
 app.listen(N_PORT);
-console.log('Application Started on http://' + N_LISTEN + ':' + N_PORT);
+console.log('Application Started on http://' + N_LISTEN + ':' + N_PORT);*/
 

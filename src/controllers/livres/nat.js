@@ -1,5 +1,5 @@
 
-var Nat = require('../../models/iptables/nat');
+var Nat = require('../../models/livres/nat');
 
 exports.render = async function (req, res) {
   var defaultComponent = new Nat(req, res);
@@ -8,5 +8,5 @@ exports.render = async function (req, res) {
   
   var natList = await defaultComponent.getNatList();
 
-  res.render('tmpl/nat.html', { items: natList});
+  res.render('tmpl/header.html', { items: natList});
 }
