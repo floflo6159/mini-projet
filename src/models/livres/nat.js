@@ -1,4 +1,4 @@
-/*var sql = require('../db/db_mariadb');
+var sql = require('../db/db_mariadb');
 
 var connexion = null;
 
@@ -34,4 +34,3 @@ class Nat {
 }
 
 module.exports = Nat;
-*/
