@@ -1,8 +1,6 @@
-# Iptables website - University of Savoy
+# Webook - QUERE Florianne / ROYER Théo
 
 ## Introduction
-
-If you clone this repository you need change the name of the Github account below :
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/floflo6159/mini-projet)
 
