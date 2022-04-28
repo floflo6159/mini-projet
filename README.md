@@ -1,4 +1,4 @@
-# Webook - QUERE Florianne / ROYER Théo
+# Webook - QUÉRÉ Floriane / ROYER Théo
 
 ## Introduction
 
