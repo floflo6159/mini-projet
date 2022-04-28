@@ -1,0 +1,34 @@
+{% extends 'tmpl/layout.html' %}
+
+{% block title %}Page Contact{% endblock %}
+{% block breadcrumb %}Contact{% endblock %}
+{% block styles %}
+<link rel="stylesheet" href="css/style.css">
+{% endblock %}
+{% block scripts %}
+{% endblock %}
+
+
+
+{% block content %}
+<h2>Page de contact</h2>
+
+<div class="container">
+    <form action="mailto:floriane.quere@etu.univ-smb.fr?subject=Fomulaire Mon javascript" name="envoi" method=POST enctype="text/plain">
+        <b>Nom : </b><input name="nom"size=50 maxlength=50><br>
+        <b>Prenom : </b><input name="prenom"size=50 maxlength=50>
+
+        <TEXTAREA name="message" cols="60" rows="4"></TEXTAREA>
+
+        <input type="submit" value="Envoyer" name="Envoyer">
+        <input type="reset" name="Submit" value="Effacer">
+
+    </form>
+</div>
+
+<h4>Pour toutes informations complémentaires :</h4>
+
+<p>ROYER Théo : theo.royer@etu.univ-smb.fr</p>
+<p>QUÉRÉ Floriane : floriane.quere@etu.univ-smb.fr</p>
+
+{% endblock %}
