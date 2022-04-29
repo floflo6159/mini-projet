@@ -19,17 +19,17 @@ CREATE TABLE IF NOT EXISTS `Webook`.`Commentaire` (
 
 
 INSERT INTO `Webook`.`Livre` (`idLivre`, `Titre`, `Auteur`, `Genre`, `Image`, `Description`) VALUES (
-  1, 'Ton absence n’est que ténèbres', 'Jón Kalman Stefánsson', 'Roman', '/images/Absence.jpeg', 'Prix du livre étranger 2022.
+  1, 'Ton absence n’est que ténèbres', 'Jón Kalman Stefánsson', 'Roman', '/Absence.jpeg', 'Prix du livre étranger 2022.
   Ton absence n’est que ténèbres frappe par son ampleur, sa construction et son audace : le nombre de personnages, les époques enjambées, la puissance des sentiments, la violence des destins – tout semble superlatif dans ce nouveau roman de Jón Kalman Stefánsson. Les récits s’enchâssent les uns dans les autres, se perdent, se croisent ou se répondent, puis finissent par former une mosaïque romanesque extraordinaire, comme si l’auteur islandais avait voulu reconstituer la mémoire perdue non pas d’un personnage mais de l’humanité tout entière. Le résultat est d’une intensité incandescente.'
 );
 
 INSERT INTO `Webook`.`Livre` (`idLivre`, `Titre`, `Auteur`, `Genre`, `Image`, `Description`) VALUES (
-  2, 'Celui qui veille', 'Louise Erdrich', 'Roman', '/images/CeluiQuiVeille.jpg', 'Prix Pulitzer 2021.
+  2, 'Celui qui veille', 'Louise Erdrich', 'Roman', '/CeluiQuiVeille.jpg', 'Prix Pulitzer 2021.
   Inspirée par la figure de son grand-père maternel, qui a lutté pour préserver les droits de son peuple, Louise Erdrich nous entraîne dans une aventure humaine peuplée de personnages inoubliables. Couronné par le prix Pulitzer, ce majestueux roman consacre la place unique qui est la sienne dans la littérature américaine contemporaine.'
 );
 
 INSERT INTO `Webook`.`Livre` (`idLivre`, `Titre`, `Auteur`, `Genre`, `Image`, `Description`) VALUES (
-  3, 'Le Grand Monde', 'Pierre Lemaitre', 'Roman', '/images/GrandMonde.jpeg', 'La famille Pelletier. Trois histoires d’amour, un lanceur d’alerte, une adolescente égarée, deux processions, Bouddha et Confucius, un journaliste ambitieux, une mort tragique, le chat Joseph, une épouse impossible, un sale trafic, une actrice incognito, une descente aux enfers, cet imbécile de Doueiri, un accent mystérieux, la postière de Lamberghem, grosse promotion sur le linge de maison, le retour du passé, un parfum d’exotisme, une passion soudaine et irrésistible.
+  3, 'Le Grand Monde', 'Pierre Lemaitre', 'Roman', '/GrandMonde.jpeg', 'La famille Pelletier. Trois histoires d’amour, un lanceur d’alerte, une adolescente égarée, deux processions, Bouddha et Confucius, un journaliste ambitieux, une mort tragique, le chat Joseph, une épouse impossible, un sale trafic, une actrice incognito, une descente aux enfers, cet imbécile de Doueiri, un accent mystérieux, la postière de Lamberghem, grosse promotion sur le linge de maison, le retour du passé, un parfum d’exotisme, une passion soudaine et irrésistible.
 Et quelques meurtres.
 Les romans de Pierre Lemaitre ont été récompensés par de nombreux prix  littéraires nationaux et internationaux. Après sa remarquable fresque de l’entre-deux-guerres, il nous propose aujourd’hui une plongée mouvementée et jubilatoire dans les Trente Glorieuses.'
 );

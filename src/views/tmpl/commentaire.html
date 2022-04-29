@@ -3,6 +3,7 @@
 {% block title %}Index page{% endblock %}
 
 {% block content %}
+<br>
 <form>
   <div class="form-group">
     <label for="exampleFormControlInput1">Pseudo</label>
@@ -18,14 +19,17 @@
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
-
+<br>
+<br>
 <h3>Liste des commentaires : </h3>
 
-<div class="list-group">
-  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
-    <div class="d-flex w-100 justify-content-between">
-      <h5 class="mb-1">List group item heading</h5>
-      <small>3 days ago</small>
-    </div>
+<div class="list-group"></div>
+<a class="list-group-item list-group-item-action flex-column align-items-start">
+  <div class="d-flex w-100 justify-content-between">
+    <h5 class="mb-1">Titre livre</h5>
+  </div>
+  <p class="mb-1">Commentaire</p>
+  <small class="text-muted">Pseudo</small>
+</a>
 </div>
 {% endblock %}
