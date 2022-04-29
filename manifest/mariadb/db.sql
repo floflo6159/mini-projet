@@ -39,12 +39,12 @@ INSERT INTO `Webook`.`Livre` (`idLivre`, `Titre`, `Auteur`, `Genre`, `Image`, `D
 );
 
 INSERT INTO `Webook`.`Livre` (`idLivre`, `Titre`, `Auteur`, `Genre`, `Image`, `Description`) VALUES (
-  5, 'Zoc', 'Jade Khoo', 'BD','/images/Zoc.jpg', 'Zoc a un pouvoir peu commun, elle peut trainer l’eau avec ses cheveux. Lorsque les adultes autour d’elle demandent à la jeune fille ses futurs projets de carrière, elle réclame haut et fort qu’elle veut faire quelque chose de cet atout. Alors que tout le monde lui dit d’être un peu sérieuse, Zoc persévère dans ses idées. Lorsqu’un village non loin est inondé elle décide de leur démontrer qu’ils se trompent.
+  5, 'Zoc', 'Jade Khoo', 'BD','/Zoc.jpg', 'Zoc a un pouvoir peu commun, elle peut trainer l’eau avec ses cheveux. Lorsque les adultes autour d’elle demandent à la jeune fille ses futurs projets de carrière, elle réclame haut et fort qu’elle veut faire quelque chose de cet atout. Alors que tout le monde lui dit d’être un peu sérieuse, Zoc persévère dans ses idées. Lorsqu’un village non loin est inondé elle décide de leur démontrer qu’ils se trompent.
 Un trait et un rythme emprunts de poésie pour cette quête initiatique originale.'
 );
 
 INSERT INTO `Webook`.`Livre` (`idLivre`, `Titre`, `Auteur`, `Genre`, `Image`, `Description`) VALUES (
-  6, 'Helena - Banana Sioule, tome 1', 'Michaël Sanlaville', 'BD', '/images/BananaSioule.jpg', 'Dans ce sport, sorti du cerveau machiavélique de Michael Sanlaville, tous les coups sont permis, des plus féroces aux plus tordus.
+  6, 'Helena - Banana Sioule, tome 1', 'Michaël Sanlaville', 'BD', '/BananaSioule.jpg', 'Dans ce sport, sorti du cerveau machiavélique de Michael Sanlaville, tous les coups sont permis, des plus féroces aux plus tordus.
 Et malgré les multiples polémiques, la compétition obtient rapidement une popularité mondiale et engrange les bénéfices.
 Cependant, pour redorer son image, la fédération crée une école dont l’objectif est de former la future élite de ce sport.
 Bien loin de ça, Helena passe son temps à aider son père aux taches quotidiennes de la ferme.
@@ -53,22 +53,22 @@ Jusqu’au jour où après une énième dispute avec son père, elle tombe sur d
 );
 
 INSERT INTO `Webook`.`Livre` (`idLivre`, `Titre`, `Auteur`, `Genre`, `Image`, `Description`) VALUES (
-  7, 'Look Back', 'Tatsuki Fujimoto ', 'Manga', '/images/LookBack.jpg', 'Fujino est une élève de CM1 qui dessine des manga pour le journal de l’école. Elle est la star de sa classe grâce à ses dessins, mais elle apprend un jour qu’une certaine Kyomoto, une élève qui ne vient jamais à l’école, désire aussi être publiée dans le journal de l’école...' 
+  7, 'Look Back', 'Tatsuki Fujimoto ', 'Manga', '/LookBack.jpg', 'Fujino est une élève de CM1 qui dessine des manga pour le journal de l’école. Elle est la star de sa classe grâce à ses dessins, mais elle apprend un jour qu’une certaine Kyomoto, une élève qui ne vient jamais à l’école, désire aussi être publiée dans le journal de l’école...' 
 );
 
 INSERT INTO `Webook`.`Livre` (`idLivre`, `Titre`, `Auteur`, `Genre`, `Image`, `Description`) VALUES (
-  8, 'Goodbye, Eri', 'Tatsuki Fujimoto', 'Manga', '/images/GoodbyeEri.jpg', 'Tout est toujours aussi bien ficelé, on est tenu en haleine tout le long du récit grâce à des questions dont on obtient les réponses avec toujours ce découpage qu’on pourrait presque qualifier de fujimotesque tant c’est devenu sa marque de fabrique ! Quelle lecture émouvante, Fujimoto joue toujours aussi bien avec notre doute par rapport à ce qui est réel et ce qui ne l’est pas.'
+  8, 'Goodbye, Eri', 'Tatsuki Fujimoto', 'Manga', '/GoodbyeEri.jpg', 'Tout est toujours aussi bien ficelé, on est tenu en haleine tout le long du récit grâce à des questions dont on obtient les réponses avec toujours ce découpage qu’on pourrait presque qualifier de fujimotesque tant c’est devenu sa marque de fabrique ! Quelle lecture émouvante, Fujimoto joue toujours aussi bien avec notre doute par rapport à ce qui est réel et ce qui ne l’est pas.'
 );
 
 INSERT INTO `Webook`.`Livre` (`idLivre`, `Titre`, `Auteur`, `Genre`, `Image`, `Description`) VALUES (
-  9, 'L’Intégrale des histoires de Don Rosa (2002) - Les Trésors de Picsou, tome 58', 'Don Rosa' , 'Comics', '/images/LesTrésorsDePicsou.jpg', 'Les Trésors de Picsou est un magazine lancé en 1998 par Disney Hachette Presse sous le nom de La Jeunesse de Picsou. Il est initialement constitué d’un seul volume contenant l’intégrale de La Jeunesse de Picsou (1998) puis de deux tomes, publiés respectivement en 2004 et 2005, reprenant dans une nouvelle édition les mêmes histoires en y ajoutant dans le 2ème volume des épisodes BIS. 
+  9, 'L’Intégrale des histoires de Don Rosa (2002) - Les Trésors de Picsou, tome 58', 'Don Rosa' , 'Comics', '/LesTrésorsDePicsou.jpg', 'Les Trésors de Picsou est un magazine lancé en 1998 par Disney Hachette Presse sous le nom de La Jeunesse de Picsou. Il est initialement constitué d’un seul volume contenant l’intégrale de La Jeunesse de Picsou (1998) puis de deux tomes, publiés respectivement en 2004 et 2005, reprenant dans une nouvelle édition les mêmes histoires en y ajoutant dans le 2ème volume des épisodes BIS. 
   Les premiers numéros publient La Jeunesse de Picsou, série de bande dessinée écrite et dessinée par Don Rosa et racontant le parcours du personnage de Picsou. Le premier volume (1998) publie intégralement sa jeunesse, quant aux deux tomes suivants, ils reprennent les douze chapitres constituant la trame principale, mais 6 épisodes BIS viennent se greffer dans le second volume (2005). 
   En devenant Les Trésors de Picsou en 2006, la publication a désormais pour vocation de publier les meilleures histoires de Carl Barks, Don Rosa, Marco Rota, Daan Jippes et occasionnellement d’autres auteurs, agrémentées de couvertures d’époque inédites en France et d’articles explicatifs replaçant les récits dans leur contexte. 
   Pour célébrer le 70ème anniversaire de Picsou, la rédaction entreprend entre 2016 et 2018 la republication complète des récits de La Jeunesse de Picsou, accompagnés d’histoires de Carl Barks et d’annotations historiques, afin d’éclairer la lecture d’une telle œuvre.'
 );
 
 INSERT INTO `Webook`.`Livre` (`idLivre`, `Titre`, `Auteur`, `Genre`, `Image`, `Description`) VALUES (
-  10, 'Connemara', 'Nicolas Mathieu', 'Roman', '/images/Connemara.jpg', 'Hélène a bientôt quarante ans. Elle est née dans une petite ville de l’Est de la France. Elle a fait de belles études, une carrière, deux filles et vit dans une maison d’architecte sur les hauteurs de Nancy. Elle a réalisé le programme des magazines et le rêve de son adolescence : se tirer, changer de milieu, réussir. Et pourtant le sentiment de gâchis est là, les années ont passé, tout a déçu.
+  10, 'Connemara', 'Nicolas Mathieu', 'Roman', '/Connemara.jpg', 'Hélène a bientôt quarante ans. Elle est née dans une petite ville de l’Est de la France. Elle a fait de belles études, une carrière, deux filles et vit dans une maison d’architecte sur les hauteurs de Nancy. Elle a réalisé le programme des magazines et le rêve de son adolescence : se tirer, changer de milieu, réussir. Et pourtant le sentiment de gâchis est là, les années ont passé, tout a déçu.
   Christophe, lui, vient de dépasser la quarantaine. Il n’a jamais quitté ce bled où ils ont grandi avec Hélène. Il n’est plus si beau. Il a fait sa vie à petits pas, privilégiant les copains, la teuf, remettant au lendemain les grands efforts, les grandes décisions, l’âge des choix. Aujourd’hui, il vend de la bouffe pour chien, rêve de rejouer au hockey comme à seize ans, vit avec son père et son fils, une petite vie peinarde et indécise. On pourrait croire qu’il a tout raté. Et pourtant il croit dur comme fer que tout est encore possible.
   Connemara c’est cette histoire des comptes qu’on règle avec le passé et du travail aujourd’hui, entre PowerPoint et open space. C’est surtout le récit de ce tremblement au mitan de la vie, quand le décor est bien planté et que l’envie de tout refaire gronde en nous. Le récit d’un amour qui se cherche par-delà les distances dans un pays qui chante Sardou et va voter contre soi.'
 );
