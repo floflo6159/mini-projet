@@ -17,7 +17,7 @@ class Index {
 
   async getIndexList() {
     try {
-      this.indexList = await connexion.query("SELECT idLivre, Titre, Auteur, Genre, Description FROM Livre");
+      this.indexList = await connexion.query("SELECT idLivre, Titre, Auteur, Genre, Image, Description FROM Livre");
 
       return this.indexList;
     }
