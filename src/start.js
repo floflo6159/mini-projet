@@ -18,6 +18,9 @@ templateEngine.configure('views', {
 var start = require('./controllers/livres/index');
 app.get('/', start.render);
 
+var index = require('./controllers/livres/index');
+app.get('/index', index.render);
+
 var commentaire = require('./controllers/livres/commentaire');
 app.get('/commentaire', commentaire.render);
 
