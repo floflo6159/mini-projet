@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS `Webook`.`Livre` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 CREATE TABLE IF NOT EXISTS `Webook`.`Commentaire` (
-  `idCommetaire` int(11) DEFAULT NULL,
+  `idCommentaire` int(11) DEFAULT NULL,
   `Commentaire` varchar(200) DEFAULT NULL,
   `Pseudo` varchar(20) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;

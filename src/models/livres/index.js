@@ -2,7 +2,7 @@ var sql = require('../db/db_mariadb');
 
 var connexion = null;
 
-class Nat {
+class Index {
   constructor(req, res) {
     this.req = req;
     this.res = res;
@@ -15,22 +15,22 @@ class Nat {
 
   }
 
-  async getNatList() {
+  async getIndexList() {
     try {
-      this.natList = await connexion.query("SELECT idNat, nameNat, port, type FROM nat_rules");
+      this.indexList = await connexion.query("SELECT idLivre, Titre, Auteur, Genre, Description FROM Livre");
 
-      return this.natList;
+      return this.indexList;
     }
     catch (anError) {
-      console.log('Error to get nat list !');
+      console.log('Error to get index list !');
 
       // See error from SQL Client
       //console.log(anError);
     }
   }
-  getNat() {
-    return this.natList;
+  getIndex() {
+    return this.indexList;
   }
 }
 
-module.exports = Nat;
+module.exports = Index;

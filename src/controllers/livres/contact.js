@@ -1,4 +1,4 @@
-var Contact = require('../../models/iptables/contact');
+var Contact = require('../../models/livres/contact');
 
 exports.render = async function (req, res) {
   var defaultComponent = new Contact(req, res);
