@@ -25,7 +25,7 @@ class Index {
       console.log('Error to get index list !');
 
       // See error from SQL Client
-      //console.log(anError);
+      console.log(anError);
     }
   }
   getIndex() {
