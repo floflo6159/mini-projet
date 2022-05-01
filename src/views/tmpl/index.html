@@ -5,10 +5,10 @@
 {% block content %}
 
 {% for row in items %}
-  <div class="card mb-3" style="max-width: 540px;">
+  <div class="card mb-3" style="display: flex;">
     <div class="row g-0">
       <div class="col-md-4">
-        <img src="{{ row.Image }}" class="img-fluid rounded-start">
+        <img src="{{ row.Image }}" class="img-fluid rounded-start" style="margin-left: 20%; margin-right: 20%; width: 273px; height : 400px;">
       </div>
       <div class="col-md-8">
         <div class="card-body">
